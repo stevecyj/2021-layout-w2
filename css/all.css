@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 1px solid #808080;
+}
+
+body {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 958px;
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week2/banner.png');
+}
+
+.banner-content {
+  margin-right: 2px;
+  width: 304px;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+}
+
+.banner span {
+  display: block;
+  text-align: left;
+  line-height: 42px;
+}
+
+.banner h1 {
+  margin-bottom: 32px;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1.325;
+}
+
+.banner-content p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.banner-content ul {
+  display: flex;
+  justify-content: space-around;
+}

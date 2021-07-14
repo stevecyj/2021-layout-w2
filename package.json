@@ -1,0 +1,23 @@
+{
+  "name": "2021-layout-w2",
+  "version": "1.0.0",
+  "description": "- [頁面連結](https://stevecyj.github.io/2021-layout-w2/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint css/**/*.css",
+    "lint:fix": "stylelint css/**/*.css --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
+  }
+}
