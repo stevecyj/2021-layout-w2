@@ -76,11 +76,10 @@ img {
 .about-basic-information {
   font-size: 24px;
   font-weight: bold;
-  z-index: 999999;
   line-height: 1.75;
 }
 
-.about-experience {
+.about-education {
   margin-bottom: 24px;
   font-size: 24px;
   font-weight: bold;
@@ -88,6 +87,72 @@ img {
 }
 
 .about hr {
+  margin: 0;
   width: 384px;
   border: 1px solid #000;
+}
+
+.about ul li::before {
+  display: inline-block;
+  margin-right: 16px;
+  width: 22px;
+  height: 22px;
+  background: #891818;
+  border-radius: 50%;
+  content: '';
+}
+
+.about ul li {
+  margin-top: 28px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.75;
+}
+
+/* brand */
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 0 160px;
+  background: #000;
+}
+
+.brand h2 {
+  margin-bottom: 12px;
+  font-size: 64px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.3125;
+}
+
+.brand h3 {
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.75;
+}
+
+.brand p {
+  margin-bottom: 68px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.brand ul {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  flex-wrap: wrap;
+}
+
+.brand ul li:nth-child(1) {
+  margin-bottom: 40px;
+}
+
+.brand ul li:nth-child(2) {
+  margin-right: 24px;
 }
