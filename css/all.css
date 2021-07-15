@@ -25,6 +25,7 @@ img {
   width: 100%;
   height: 958px;
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week2/banner.png');
+  background-position: center;
 }
 
 .banner-content {
@@ -73,6 +74,7 @@ img {
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1.3125;
+  font-weight: 500;
 }
 
 .about img {
