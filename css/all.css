@@ -2,7 +2,8 @@
 
 * {
   box-sizing: border-box;
-  outline: 1px solid #808080;
+
+  /* outline: 1px solid #808080; */
 }
 
 body {
@@ -59,18 +60,19 @@ img {
 
 .about {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin: 56px 0;
+  flex-direction: column;
 }
 
 .about h2 {
-  margin: 56px 0 40px;
+  margin-bottom: 40px;
   font-size: 64px;
   line-height: 1.3125;
 }
 
-.about-img {
-  align-items: center;
+.about img {
+  margin-bottom: 20px;
 }
 
 .about-basic-information {
@@ -186,8 +188,41 @@ img {
 }
 
 .other-works ul li h4 {
-  margin: 16px 0 48px 0;
+  margin: 16px 0 48px;
   font-size: 20px;
   line-height: 2.1;
   font-weight: 500;
+}
+
+/* contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 96px;
+  color: #fff;
+  background: #000;
+}
+
+.contact h2 {
+  margin: 64px 0 16px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.3125;
+}
+
+.contact ul {
+  margin-bottom: 64px;
+}
+
+.contact ul li {
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #fff;
 }
