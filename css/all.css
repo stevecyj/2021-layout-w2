@@ -156,3 +156,38 @@ img {
 .brand ul li:nth-child(2) {
   margin-right: 24px;
 }
+
+/* other works */
+.other-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.other-works h2 {
+  margin: 56px 0 16px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.3125;
+}
+
+.other-works p {
+  margin-bottom: 56px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.other-works ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.other-works ul li h4 {
+  margin: 16px 0 48px 0;
+  font-size: 20px;
+  line-height: 2.1;
+  font-weight: 500;
+}
